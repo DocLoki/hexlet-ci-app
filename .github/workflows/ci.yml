@@ -34,3 +34,7 @@ jobs:
 
       - name: Run tests
         run: make test
+        
+      - name: Hello from Hexlet
+        uses: hexlet-components/hello-from-hexlet-action@release
+
